@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {
-    int num[10] = {0};
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%d ", num[i]);
-    }
+    int n = 4;
+    n = 1 << n;
+    cout << n;
 }
