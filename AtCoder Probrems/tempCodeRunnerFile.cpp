@@ -11,7 +11,7 @@ int main()
     for (int i = 1; i <= 10; i++)
     {
         f[i] = f[i - 1] * i;
-        se = f[i] * (i + 1);
+        se = f[i] * (f[i] + 1);
         int sum = P % se;
         count += sum / f[i];
         P -= sum;
