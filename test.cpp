@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
-#include <algorithm>
 using namespace std;
 
 int main()
 {
-    int a, b, c, sum, minim;
-    cin >> a >> b >> c;
-    int maxim = min({a, b, c});
-    cout << maxim << endl;
+    float sum = 0;
+    for (int i = 0; i < 100; i++) {
+        sum += 0.1;
+    }
+    printf("%f\n", sum);
 }
